@@ -34,7 +34,8 @@ This project implements a temperature control system using an ESP32 microcontrol
     - Search for "DHT sensor library" and install the version by Adafruit.
 
 ## Wiring Diagram
-<span>![</span><span>Circuit Diagram</span><span>]</span><span>(</span><span>https://github.com/BryanGaray99/esp32-ubidots-temperature-control/control-diagrama.png</span><span>)</span>
+<span>![</span><span>Circuit Diagram</span><span>]</span><span>(</span><span>https://github.com/BryanGaray99/esp32-ubidots-temperature-control/blob/main/control-diagrama.png</span><span>)</span>
+
 ## Functionality
 
 1. **Temperature and Humidity Monitoring:**
@@ -51,18 +52,19 @@ This project implements a temperature control system using an ESP32 microcontrol
    - When manual mode is activated, the automatic temperature control is overridden.
    - Manual control allows users to turn on/off the light and motor as needed.
 
-## Setup and Configuration
-
-1. Clone this repository.
-2. Install the required libraries manually using the provided ZIP files. Ensure the project folder is added to the Arduino IDE preferences under "Sketchbook location."
-3. Wire the components according to the provided diagram.
-4. Upload the code to the ESP32 using the Arduino IDE.
-
 ## Ubidots Configuration
 
 1. Create an account on [Ubidots](https://ubidots.com/).
 2. Create a new device and variables for temperature, humidity, motor, light-bulb and manual-mode.
 3. Obtain the Ubidots token and update the code.
+
+## Setup and Configuration
+
+1. Clone this repository.
+2. Install the required libraries manually using the provided ZIP files. Ensure the project folder is added to the Arduino IDE preferences under "Sketchbook location."
+3. Wire the components according to the provided diagram.
+4. Do not forget to put your WIFI connection SSID and Password and your Ubidots Tokens and exact labels. 
+5. Upload the code to the ESP32 using the Arduino IDE.
 
 ## Contributions
 
@@ -70,7 +72,7 @@ Contributions are welcome! If you find issues or have suggestions, feel free to 
 
 ## Contact
 
-For any inquiries, please contact the project maintainer:
-
+For any inquiries, please contact the project maintainer: 
+- Video Presentation of the project: [https://www.youtube.com/watch?v=9m3REcRIBwo]
 - Bryan Enrique Garay Benavidez
 - [bryangarayacademico@gmail.com]
