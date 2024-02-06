@@ -34,9 +34,7 @@ This project implements a temperature control system using an ESP32 microcontrol
     - Search for "DHT sensor library" and install the version by Adafruit.
 
 ## Wiring Diagram
-
-![Wiring Diagram](link_to_wiring_diagram_image)
-
+<span>![</span><span>Circuit Diagram</span><span>]</span><span>(</span><span>https://github.com/BryanGaray99/esp32-ubidots-temperature-control/control-diagrama.png</span><span>)</span>
 ## Functionality
 
 1. **Temperature and Humidity Monitoring:**
@@ -63,7 +61,7 @@ This project implements a temperature control system using an ESP32 microcontrol
 ## Ubidots Configuration
 
 1. Create an account on [Ubidots](https://ubidots.com/).
-2. Create a new device and variables for temperature, humidity, motor, bulb-light and manual-mode.
+2. Create a new device and variables for temperature, humidity, motor, light-bulb and manual-mode.
 3. Obtain the Ubidots token and update the code.
 
 ## Contributions
