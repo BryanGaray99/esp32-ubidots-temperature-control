@@ -34,7 +34,7 @@ This project implements a temperature control system using an ESP32 microcontrol
     - Search for "DHT sensor library" and install the version by Adafruit.
 
 ## Wiring Diagram
-<span>![</span><span>Circuit Diagram</span><span>]</span><span>(</span><span>https://github.com/BryanGaray99/esp32-ubidots-temperature-control/blob/main/control-diagrama.png</span><span>)</span>
+![Wiring Diagram](https://github.com/BryanGaray99/esp32-ubidots-temperature-control/blob/main/control-diagrama.png?raw=true)
 
 ## Functionality
 
